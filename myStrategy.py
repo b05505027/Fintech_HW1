@@ -6,7 +6,7 @@ import random
 from agent import Critic
 
 critic =  Critic(7)
-critic.load_state_dict(torch.load('batch_size_256_buffer_size_20000_gamma_0.95.pt'))
+critic.load_state_dict(torch.load('batch_size_256_buffer_size_10000_gamma_0.95.pt'))
 critic.eval()
 
 
